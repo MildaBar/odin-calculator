@@ -1,0 +1,62 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(162, 186, 154);
+}
+
+.calculator {
+    background-color: rgb(208, 220, 217);
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: rgb(158, 196, 184);
+}
+
+.equal {
+    width: 320px;
+}
+
+.output {
+    width: 320px;
+    height: 75px;
+    border:2px solid black;
+    border-radius: 5px;
+    background-color:rgb(35, 79, 65);
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.output .previous {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 20px;
+}
+
+.output .current {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 30px;
+} 
